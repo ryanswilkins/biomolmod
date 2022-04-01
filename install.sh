@@ -21,7 +21,7 @@ git clone https://github.com/isaksengeir/REACT.git
 mkdir -p schrodinger
 mkdir -p schrodinger_scratch
 tar -xvf schrodinger_suites.tar
-printf "\n$PWD/schrodinger\ny\n$PWD/schrodinger_scratch\ny\n" | Maestro_2022-1_Linux-x86_64_Academic/INSTALL
+printf "\n$PWD/schrodinger\ny\n$PWD/schrodinger_scratch\ny\nn\nn\nn\nn\n" | Maestro_2022-1_Linux-x86_64_Academic/INSTALL
 #rm schrodinger_suites.tar
 #rm -r Maestro_2022-1_Linux-x86_64_Academic
 
