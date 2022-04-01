@@ -32,7 +32,6 @@ cd ../../
 
 # Qgui
 cd qgui
-git checkout Q6gui
 ./INSTALL.py
 cd ..
 
