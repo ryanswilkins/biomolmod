@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # Put everything into one directory
-mkdir -p biomol_course
+mkdir -p software
 cd biomol_course
 
 # Packages needed by course sw
