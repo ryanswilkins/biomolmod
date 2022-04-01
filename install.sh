@@ -2,7 +2,7 @@
 
 # Put everything into one directory
 mkdir -p software
-cd biomol_course
+cd software
 
 # Packages needed by course sw
 sudo apt-get -y update 
