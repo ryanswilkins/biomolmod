@@ -17,7 +17,7 @@ git clone https://github.com/isaksengeir/REACT.git
 
 
 # Install FreeMaestro
-# wget XXX TODO - update on monday!
+wget "https://filesender.uninett.no/download.php?token=c2c2c6b2-0c4d-4edd-92db-be07596efa8f&files_ids=1034118"
 mkdir -p schrodinger
 mkdir -p schrodinger_scratch
 tar -xvf schrodinger_suites.tar
