@@ -15,16 +15,9 @@ git clone https://github.com/isaksengeir/q6
 git clone https://github.com/isaksengeir/qgui.git
 git clone https://github.com/isaksengeir/REACT.git
 
-# Download & install VMD
-wget https://www.ks.uiuc.edu/Research/vmd/vmd-1.9.3/files/final/vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz
-
-# Download & install schrodinger free maestro
-# wget XXX TODO - update on monday!
-
-# Install VMD
-
 
 # Install FreeMaestro
+# wget XXX TODO - update on monday!
 mkdir -p schrodinger
 mkdir -p schrodinger_scratch
 tar -xvf schrodinger_suites.tar
@@ -33,7 +26,14 @@ printf "\n$PWD/schrodinger\ny\n$PWD/schrodinger_scratch\ny\n" | Maestro_2022-1_L
 #rm -r Maestro_2022-1_Linux-x86_64_Academic
 
 # Install VMD
-
+wget https://www.ks.uiuc.edu/Research/vmd/vmd-1.9.3/files/final/vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz
+tar -xzf vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz
+cd vmd-1.9.3/
+./configure
+cd src
+sudo make install
+cd ../..
+#rm vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz
 
 # Q6 compile
 cd q6/src
