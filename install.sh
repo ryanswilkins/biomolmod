@@ -5,6 +5,8 @@ mkdir -p biomol_course
 cd biomol_course
 
 # Packages needed by course sw
+sudo apt-get -y update 
+sudo apt-get -y upgrade
 sudo apt-get install -y python3-tk python3-pip python3-venv python3-pil python3-pil.imagetk  git pymol make gfortran texlive texlive-latex-extra texlive-fonts-recommended dvipng cm-super
 
 
