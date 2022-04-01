@@ -16,8 +16,10 @@ git clone https://github.com/isaksengeir/qgui.git
 git clone https://github.com/isaksengeir/REACT.git
 
 # Download & install VMD
+wget https://www.ks.uiuc.edu/Research/vmd/vmd-1.9.3/files/final/vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz
 
 # Download & install schrodinger free maestro
+# wget XXX
 
 # Q6 compile
 cd q6/src
