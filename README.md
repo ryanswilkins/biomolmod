@@ -18,16 +18,7 @@ If you are using MacOS or Windows, we will simply install VirtaulBox and run Ubu
 	- Install ubuntu by selecting the downloaded ubuntu iso file as your `Media source`.
 	- Finish the installation as normal install.
 
-## How to install course software on Ubuntu?
-
-### Free Maestro
-Download and install [Free Maestro](https://www.schrodinger.com/freemaestro)
-
-### VMD
-Download and install [VMD](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)
-
-
-### In-house software (Q, Qgui & chemREACT)
+## How to install course software
 Do 1 or 2:
 1. Download the install.sh to you local Ubuntu machine or
 2. Install `git` and then clone this repo:
