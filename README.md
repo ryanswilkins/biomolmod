@@ -9,7 +9,7 @@ software on under `Ubuntu`.
 
 Yes, you do, but do not worry, we will show how to get it and also remove it when the course is over (if you are not already runing linux, that is).
 
-## Not a linux user alread?
+## Not a linux user already?
 If you are using MacOS or Windows, we will simply install VirtaulBox and run Ubuntu on your existing opertaing system.
 1. Download the [Ubuntu 20.04.4 iso image](https://ubuntu.com/download/desktop)
 2. Download and install [virtualbox](https://virtualbox.org)
