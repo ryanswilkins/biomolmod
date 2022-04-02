@@ -27,12 +27,12 @@ When git is installed, clone this repo:
 ```bash=2
 git clone https://github.com/isaksengeir/biomolmod.git
 ````
-Run the install script
+Move into biomolmod and run the install script
 ```bash=1
+cd biomolmod
 ./install.sh
 ```
-
-You are now all set for some molecular modeling. 
+This will thake ~30 minutes depending on your internet connection. When the install script is done, you should be all set for some molecular modeling. 
 
 	 
 
