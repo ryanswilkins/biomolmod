@@ -55,5 +55,6 @@ cd ..
 cd REACT
 pip install -r requirements.txt
 echo "export PATH=$PWD:\$PATH" >> $HOME/.bash_profile
+echo ". ~/.bash_profile"  >> ~/.bashrc
 
 
