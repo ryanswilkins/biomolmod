@@ -13,24 +13,30 @@ Yes, you do, but do not worry, we will show how to get it and also remove it whe
 If you are using MacOS or Windows, we will simply install VirtaulBox and run Ubuntu on your existing opertaing system.
 1. Download the [Ubuntu 20.04.4 iso image](https://ubuntu.com/download/desktop)
 2. Download and install [virtualbox](https://virtualbox.org)
-	- Open VirtualBox and select `New`
-	- Make the VM **minimum 30GB** in size
+	- Open VirtualBox and select `New` and give the VM a `Name` such as <mark>Ubuntu</mark>. 
+	- Allocate at least 1024 MB of memeory to the VM.
+	- Create a `virtual hard disk` (*VDI*) and make it a **minimum 30GB** in size and **Dynamically allocated**.
+		- If you plan on keeping the VM after the course, we recommend going for 100 GB **fixed size**. 
+	
+	- When starting the VM for the first time you wil be asked to select a `virtual optical disk file`. This is where you point to the recently downloaded Ubuntu iso file.
 	- Install ubuntu by selecting the downloaded ubuntu iso file as your `Media source`.
-	- Finish the installation as normal install.
+	- Finish the installation as `minimal` install.
 
-## How to install course software
-Do 1 or 2:
-1. Download the install.sh to you local Ubuntu machine or
-2. Install `git` and then clone this repo:
-   - sudo apt-get install git
-   - git clone https://github.com/isaksengeir/biomolmod.git
-
-Run the install script
+## How to install course software (Ubuntu / VM)
+Open a command line and install `git`: 
 ```bash=1
+sudo apt-get install git
+```
+When git is installed, clone this repo:
+```bash=2
+git clone https://github.com/isaksengeir/biomolmod.git
+````
+Move into biomolmod and run the install script
+```bash=1
+cd biomolmod
 ./install.sh
 ```
-
-You are now all set for some molecular modeling. 
+This will thake ~30 minutes depending on your internet connection. When the install script is done, you should be all set for some molecular modeling. 
 
 	 
 
