@@ -19,12 +19,14 @@ If you are using MacOS or Windows, we will simply install VirtaulBox and run Ubu
 	- Finish the installation as normal install.
 
 ## How to install course software
-Do 1 or 2:
-1. Download the install.sh to you local Ubuntu machine or
-2. Install `git` and then clone this repo:
-   - sudo apt-get install git
-   - git clone https://github.com/isaksengeir/biomolmod.git
-
+Open a command line and install `git`: 
+```bash=1
+sudo apt-get install git
+```
+When git is installed, clone this repo:
+```bash=2
+git clone https://github.com/isaksengeir/biomolmod.git
+````
 Run the install script
 ```bash=1
 ./install.sh
