@@ -20,7 +20,7 @@ If you are using MacOS or Windows, we will simply install VirtaulBox and run Ubu
 	
 	- When starting the VM for the first time you wil be asked to select a `virtual optical disk file`. This is where you point to the recently downloaded Ubuntu iso file.
 	- Install ubuntu by selecting the downloaded ubuntu iso file as your `Media source`.
-	- Finish the installation as normal install.
+	- Finish the installation as `minimal` install.
 
 ## How to install course software (Ubuntu / VM)
 Open a command line and install `git`: 
