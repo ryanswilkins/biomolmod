@@ -36,7 +36,7 @@ Move into biomolmod and run the install script
 cd biomolmod
 ./install.sh
 ```
-This will thake ~30 minutes depending on your internet connection. When the install script is done, you should be all set for some molecular modeling. 
+This will thake ~30 minutes depending on your internet connection. When the install script is done, **restart** the terminal window, and you should be all set for some molecular modeling. 
 
 	 
 
