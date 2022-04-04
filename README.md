@@ -1,6 +1,7 @@
 # Bio-molecular modeling 2022
 Welcome to Biomolecular modeling 2022.
 
+Hello world!
 
 ## What is this?
 This repo contains `install.sh`, a script for installing course
