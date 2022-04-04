@@ -29,7 +29,7 @@ sudo apt-get install git
 ```
 When git is installed, clone this repo:
 ```bash=2
-git clone https://github.com/isaksengeir/biomolmod.git
+git clone https://github.com/isaksengeir/biomolmod
 ````
 Move into biomolmod and run the install script
 ```bash=1
