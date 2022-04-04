@@ -38,5 +38,13 @@ cd biomolmod
 ```
 This will thake ~30 minutes depending on your internet connection. When the install script is done, **restart** the terminal window, and you should be all set for some molecular modeling. 
 
-	 
-
+## Time schedule 
+### Monday April 4th
+- 09:15 - 12:00
+	- Coffee, meet & greet (BOB/GVI)
+	- Software install etc (GVI)
+	- Basic Bash & SSH (GVI)
+	- VR lab session (DS)
+- 13:00 - 15:00:
+	- Lecture: Basics force fields (BOB)
+	- Lecture: Simulations  (BOB)
