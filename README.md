@@ -50,6 +50,13 @@ This will thake ~30 minutes depending on your internet connection. When the inst
 	- Lecture: Simulations  (BOB)
 
 ### Tue April 5th
+- 09:15 - 10:00:
+	- Lecture: Free energy perturbation (Bob)
+- 10:15 - 12:00:
+	- Practical: Ion hydration in water (Bob)
+- 13:00 - 15:00:
+	- Lecture: DFT (GVI)
+	- Practical: DFT reference reaction
 
 ### Wed April 6th
 
