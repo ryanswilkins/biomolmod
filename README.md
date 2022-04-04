@@ -15,7 +15,7 @@ If you are using MacOS or Windows, we will simply install VirtaulBox and run Ubu
 2. Download and install [virtualbox](https://virtualbox.org)
 	- Open VirtualBox and select `New` and give the VM a `Name` such as <mark>Ubuntu</mark>. 
 	- Allocate at least 1024 MB of memeory to the VM.
-	- Create a `virtual hard disk` (*VDI*) and make it a **minimum 30GB** in size and **Dynamically allocated**.
+	- Create a `virtual hard disk` and make it a **minimum 30GB** in size and **Dynamically allocated**.
 		- If you plan on keeping the VM after the course, we recommend going for 100 GB **fixed size**. 
 	
 	- When starting the VM for the first time you wil be asked to select a `virtual optical disk file`. This is where you point to the recently downloaded Ubuntu iso file.
