@@ -22,6 +22,10 @@ If you are using MacOS or Windows, we will simply install VirtaulBox and run Ubu
 	- Install ubuntu by selecting the downloaded ubuntu iso file as your `Media source`.
 	- Finish the installation as `minimal` install.
 
+
+NOTE: If you have the new M1 macbook, virtual box will not work. Use
+	- https://www.parallels.com/eu/ 
+
 ## How to install course software (Ubuntu / VM)
 Open a command line and install `git`: 
 ```bash=1
