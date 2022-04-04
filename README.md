@@ -49,21 +49,27 @@ This will thake ~30 minutes depending on your internet connection. When the inst
 	- Software install etc (GVI)
 	- Basic Bash & SSH (GVI)
 	- VR lab session (DS)
-- 13:00 - 15:00:
+- 13:15 - 14:00:
 	- Lecture: Basics force fields (BOB)
-	- Lecture: Simulations  (BOB)
+- 14:15 - 15:00:
+	- Becoming a command line ninja: basic Bash, ssh and scp.
 
 ### Tue April 5th
 - 09:15 - 10:00:
+ 	- Lecture: Simulations  (BOB)
+- 10:15 - 11:00:
 	- Lecture: Free energy perturbation (Bob)
-- 10:15 - 12:00:
+- 11:15 - 13:00:
 	- Practical: Ion hydration in water (Bob)
 - 13:00 - 15:00:
 	- Lecture: DFT (GVI)
 	- Practical: DFT reference reaction
 
 ### Wed April 6th
-
+DFT-day
+ 
 ### Thu April 7th
+EVB-day
 
 ### Fri April 8th
+Popular science talk and endex
