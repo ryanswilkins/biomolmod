@@ -88,13 +88,32 @@ Go to [https://tigervnc.org](https://tigervnc.org) and follow instrucions to get
 	- Practical: Ion hydration in water (Bob)
 - 13:00 - 15:00:
 	- Lecture: DFT (GVI)
+	- Gaussian / GaussView / Molden chemREACT
 	- Practical: DFT reference reaction
 
 ### Wed April 6th
-DFT-day
- 
+- 09:15 - 10:00
+	- DFT practical 
+- 10:15 - 12:00
+	- Lecture: Empirical Valence Bond (GVI)
+	- Qgui
+	
+- 13:00 - 15:00:
+	- DFT practical
+	- EVB practical
+
 ### Thu April 7th
-EVB-day
+- 09:15 - 10:00 
+	- Practicals
+- 10:15 - 11:00
+	- Repetition (BOB)
+- 11:00 - 15:00
+	- Practicals
 
 ### Fri April 8th
-Popular science talk and endex
+- 09:15 - 10:00
+	- Practials / report
+- 10:15 - 11:00
+	- Popular science talk by Johan Åqvist
+- 11:15 - 12:00
+	- ENDEX 
