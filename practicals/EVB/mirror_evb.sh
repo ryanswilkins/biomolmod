@@ -12,7 +12,7 @@ temperatures=(298)
 #temperatures=(288 293 298 303 308)
 
 #SET NUMBER OF RUNS:
-runs=2
+runs=10
 
 #START SUBMITTING JOBS FROM:
 start_from=1
@@ -30,7 +30,7 @@ home_path=$(pwd)
 inputfiles="inputfiles"
 
 #MIRROR JOBS FROM ../$mirror_from/../$home_path/  (--> /inputfiles)
-mirror_from="projects"
+mirror_from="$USER"
 
 #JOBS WILL BE MIRRORED TO work_path/../$home_path/ (--> /inputfiles)
 work_path="/cluster/work/users/$USER/nodelete"
@@ -81,28 +81,6 @@ cp -r "$home_path/$inputfiles/" "$work_path"
 #Move to $work_path
 cd $work_path
 
-#BEFORE SUBMITTING - WRITE TO job_info.txt Qdyn version
-qdyn_info=$("$qdyn" --help)
-
-
-IFS='
-'
-
-write_line=false
-for line in $qdyn_info
-do
-    if [[ $line == *"Build number"* ]]; then
-        write_line=true
-    fi
-
-    if $write_line; then
-        echo $line >> "$home_path/$inputfiles/$job_info"
-    fi
-
-    if [[ $line == *"Current date"* ]]; then
-       write_line=false
-    fi
-done
 
 #Iterate over temperatures
 for temp in ${temperatures[*]}
