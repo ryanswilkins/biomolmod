@@ -43,6 +43,30 @@ cd biomolmod
 ```
 This will thake ~30 minutes depending on your internet connection. When the install script is done, **restart** the terminal window, and you should be all set for some molecular modeling. 
 
+
+## TigerVNC
+```
+VNC server: desktop.saga.sigma2.no:5901
+```
+
+### MacOS
+#### Install Homebrew
+copy paste this command into your terminal
+```bash=1
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+#### Install TigerVNC with brew
+```bash=1
+brew install tiger-vnc
+```
+Homebrew puts the `vncviewer` executable here `/usr/local/Cellar/tiger-vnc/1.12.0/bin/`, but normally it can be launched by typing `vncviewer` in the terminal.
+
+
+### Windows 
+Go to [https://tigervnc.org](https://tigervnc.org) and follow instrucions to get a suitable self contained binary for your system.
+
+
 ## Time schedule 
 ### Mon April 4th
 - 09:15 - 12:00
