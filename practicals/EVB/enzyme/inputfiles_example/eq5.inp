@@ -1,0 +1,46 @@
+[MD]
+steps                     10000
+stepsize                  1.0
+temperature               T_VAR
+bath_coupling             10.0
+shake_solvent             on
+shake_hydrogens           off
+shake_solute              off
+lrf                       on
+
+[cut-offs]
+solute_solvent            10.0
+solute_solute             10.0
+solvent_solvent           10.0
+q_atom                    99.0
+lrf                       99.0
+
+[sphere]
+shell_force               10.0
+shell_radius              30.6
+
+[solvent]
+radial_force              60.0
+polarisation              on
+polarisation_force        20.0
+
+[intervals]
+output                    5
+trajectory                1000
+non_bond                  25
+
+[files]
+topology                  bs_complexQ.top
+trajectory                eq5.dcd
+restart                   eq4.re
+final                     eq5.re
+fep                       bs_complexQ_top.fep
+
+[trajectory_atoms]
+not excluded
+
+[lambdas]
+1.000 0.000
+
+[sequence_restraints]
+     1   5736     0.50  0  1
