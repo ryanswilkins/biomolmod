@@ -1,7 +1,5 @@
-# Bio-molecular modeling 2022
+# Bio-molecular modeling 2024
 Welcome to Biomolecular modeling 2024!
-
-Hello world!
 
 ## What is this?
 This repo contains course information, software, lectures, and practicals for BioCat C8 - 2024
